@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react'
-import './intro.scss'
+
 import {init} from 'ityped'
 
 export default function Intro() {
