@@ -1,9 +1,15 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
-export default function Home() {
+function Home() {
   return (
     <div>
-      this is home page
+      <h1>Home Page</h1>
+      <p>Welcome to the home page!</p>
+      {/* Link to About Page */}
+      <Link to="/about">Go to About Page</Link>
     </div>
-  )
+  );
 }
+
+export default Home;
