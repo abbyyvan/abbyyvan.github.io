@@ -6,10 +6,10 @@ import About from './components/About';
 
 function App() {
   return (
-    <BrowserRouter basename="/my-website">
+    <BrowserRouter basename="/my-website/">
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
+        <Route path="" element={<Home />} />
+        <Route path="about" element={<About />} />
       </Routes>
     </BrowserRouter>
   );
