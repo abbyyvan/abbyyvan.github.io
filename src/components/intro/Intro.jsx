@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react'
-
+import './intro.css'
 import {init} from 'ityped'
 
 export default function Intro() {
@@ -16,12 +16,12 @@ export default function Intro() {
   },[])
   return (
     <div className='intro' id='intro'>
-      <div className="left">
+      <div className="left-intro">
         {/* <div className="imageContainer">
           <img src="assets/man.png" alt="" />
         </div> */}
       </div>
-      <div className="right">
+      <div className="right-intro">
         <div className="wrapper">
           <h2>Hi There, I'm</h2>
           <h1>Abby Yuan</h1>

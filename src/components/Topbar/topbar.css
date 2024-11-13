@@ -1,0 +1,42 @@
+.topbar{
+    height: 40px;
+    width: 100%;
+    position: fixed;
+    background-color:#333;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    color:white
+
+}
+.logo-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10px;
+
+}
+.left-nav{
+    width: 25px;
+    height: 20px;
+    background-color: lightcyan;
+    border-radius: 50%;
+    color:#333;
+    text-align: center;
+   font-weight: 600;
+    
+}
+.right-nav{
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+a{
+    text-decoration:none;
+    color:white
+}

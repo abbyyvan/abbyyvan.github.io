@@ -1,9 +1,10 @@
 import React from 'react';
 import { HashRouter, Route, Routes } from 'react-router-dom';
-import Home from './pages/Home';
-import About from './pages/About';
-import Portfolio from './pages/Portfolio';
-import Contact from './pages/Contact';
+import HomePage from './pages/HomePage';
+import AboutPage from './pages/AboutPage';
+import PortfolioPage from './pages/PortfolioPage';
+import ContactPage from './pages/ContactPage';
+import './app.css'
 
 
 
@@ -11,10 +12,10 @@ function App() {
   return (
     <HashRouter>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/portfolio" element={<Portfolio />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact/>} />
+        <Route path="/" element={<HomePage  className='intro' />} />
+        <Route path="/portfolio" element={<PortfolioPage />} />
+        <Route path="/about" element={<AboutPage />} />
+        <Route path="/contact" element={<ContactPage/>} />
       </Routes>
     </HashRouter>
   );
