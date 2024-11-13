@@ -27,7 +27,7 @@
   width: 100vw;
   height: calc(100vh - 40px);
   scroll-snap-align: start;
-  background-color: rgb(173, 201, 173);
+ 
 }
 .c4 {
   width: 100vw;
