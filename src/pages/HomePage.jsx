@@ -11,9 +11,19 @@ function HomePage() {
     <div className="home">
       <Topbar></Topbar>
       <div className="section">
-        <div className="c2"></div>
-        <div className="c3"></div>
-        <div className="c4"></div>
+        <div className="c2">
+          <Intro></Intro>
+        </div>
+        <div className="c3">
+          <Portfolio></Portfolio>
+        </div>
+        <div className="c4">
+          <Contact></Contact>
+        </div>
+        <div className="c2">
+          <About></About>
+        </div>
+        
       </div>
     </div>
   );
